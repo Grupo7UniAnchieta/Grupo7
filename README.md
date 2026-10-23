@@ -142,35 +142,9 @@ As ferramentas de IA utilizadas pelo grupo foram o Copilot e Perflexity.
 
 ## Contribuição dos integrantes
 
-| Integrante | Papel | Principais contribuições |
-|
----
-|
----
-|
----
-|
-|
- Rodrigo 
-|
- Backend e Infraestrutura 
-|
- Docker, CI e integração com a API do GitHub 
-|
-|
- Giovana 
-|
- IA e Avaliação; co-responsável por Dados e Qualidade 
-|
- Grafo LangGraph, agentes, métricas e testes automatizados 
-|
-|
- Daniel 
-|
- Produto e Interface; co-responsável por Dados e Qualidade 
-|
- Documentação, pesquisa ABNT, catálogo de issues e datasets 
-|
+- **Rodrigo Forcinito Cruz** — Backend, Infraestrutura, Docker, CI e integração com a API do GitHub;
+- **Giovana de Jesus Oliveira** — IA e Avaliação; co-responsável por Dados e Qualidade, além de Grafo LangGraph, agentes, métricas e testes automatizados;
+- **Daniel Cosme de Santana** — Produto e Interface; co-responsável por Dados e Qualidade, bem como de Documentação, pesquisa ABNT, catálogo de issues e datasets. 
 
 ## Licença
 
