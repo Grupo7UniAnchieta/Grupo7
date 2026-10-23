@@ -8,9 +8,9 @@ do repositório.
 
 ## Integrantes e papéis
 
-- **Rodrigo** — Backend e Infraestrutura
-- **Giovana** — IA e Avaliação; co-responsável por Dados e Qualidade
-- **Daniel** — Produto e Interface; co-responsável por Dados e Qualidade
+- **Rodrigo Forcinito Cruz** — Backend e Infraestrutura
+- **Giovana de Jesus Oliveira** — IA e Avaliação; co-responsável por Dados e Qualidade
+- **Daniel Cosme de Santana ** — Produto e Interface; co-responsável por Dados e Qualidade
 
 ## Problema
 
