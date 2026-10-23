@@ -12,7 +12,7 @@ preenchendo conforme o sistema for rodando de verdade.
 A primeira prova que conseguimos. O GitHub roda nossos testes sozinho a cada
 alteração, e o resultado foi verde.
 
-![CI verde](02-ci-verde.png)
+![CI verde](ci-verde.png)
 
 O que isso prova: o repositório está montado certo e os testes rodam.
 
