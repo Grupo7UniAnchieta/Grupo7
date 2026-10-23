@@ -142,13 +142,7 @@ As ferramentas de IA utilizadas pelo grupo foram o Copilot e Perflexity.
 
 ## Contribuição dos integrantes
 
-|
- Integrante 
-|
- Papel 
-|
- Principais contribuições 
-|
+| Integrante | Papel | Principais contribuições |
 |
 ---
 |
