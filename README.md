@@ -34,12 +34,41 @@ em repositório de teste do grupo.
 
 Grafo com estado em LangGraph, executado sobre uma cópia isolada do repositório.
 
-| Nó | Responsabilidade |
-| Planejador | Lê a issue e produz o plano. Não grava arquivos. |
-| Programador | Gera o diff no contêiner Docker, restrito aos caminhos permitidos. |
-| Testador | Executa o pytest e devolve o erro ao programador. |
-| Revisor | Confere escopo e estilo antes de abrir o PR. |
-| Escalonamento humano | Recebe a issue quando um limite é atingido. |
+|
+ Nó 
+|
+ Responsabilidade 
+|
+|
+---
+|
+---
+|
+|
+ Planejador 
+|
+ Lê a issue e produz o plano. Não grava arquivos. 
+|
+|
+ Programador 
+|
+ Gera o diff no contêiner Docker, restrito aos caminhos permitidos. 
+|
+|
+ Testador 
+|
+ Executa o pytest e devolve o erro ao programador. 
+|
+|
+ Revisor 
+|
+ Confere escopo e estilo antes de abrir o PR. 
+|
+|
+ Escalonamento humano 
+|
+ Recebe a issue quando um limite é atingido. 
+|
 
 Fluxo:
 
@@ -75,14 +104,9 @@ GitHub Actions.
 
 Qwen2.5-Coder 3B em quantização Q4_K_M, executado localmente via Ollama. Ocupa cerca de
 2 GB em disco e exige aproximadamente 4 GB de memória livre, permitindo execução em
-notebook doméstico sem GPU dedicada. 
+notebook doméstico sem GPU dedicada.
 
 Hardware de referência: Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz e RAM 8,0GB DDR3 sem GPU.
-
-Justificativa: o custo por issue é dominado pelo número de chamadas, não pelo tamanho do
-modelo. Com quatro agentes e até cinco iterações, uma issue pode gerar mais de 15
-chamadas. Em CPU, o modelo de 7B gera de 2 a 5 tokens por segundo, o que inviabilizaria
-as 20 execuções no prazo.
 
 ## Pré-requisitos
 
@@ -90,7 +114,6 @@ as 20 execuções no prazo.
 - Docker e Docker Compose
 - Ollama com o modelo baixado
 - Git e uma conta no GitHub
-
 
 ## Testes e integração contínua
 
@@ -101,7 +124,8 @@ as 20 execuções no prazo.
   mantidos em origem protegida. O agente testador não pode alterá-los.
 
 ## Estrutura do repositório
-   .
+
+    .
     ├── README.md
     ├── PROMPTS.md
     ├── LICENSE
@@ -115,15 +139,45 @@ as 20 execuções no prazo.
 
 ## Uso de IA
 
-O uso de IA é incentivado e registrado, por isso, foi utilizada a IA Perplexity.
+As ferramentas de IA utilizadas pelo grupo foram o Copilot e Perflexity.
 
 ## Contribuição dos integrantes
 
-| Integrante | Papel | Principais contribuições |
-
-| Rodrigo | Backend e Infraestrutura | Docker, CI e integração com a API do GitHub |
-| Giovana | IA e Avaliação; co-responsável por Dados e Qualidade | Grafo LangGraph, agentes, métricas e testes automatizados |
-| Daniel | Produto e Interface; co-responsável por Dados e Qualidade | Documentação, pesquisa ABNT, catálogo de issues e datasets |
+|
+ Integrante 
+|
+ Papel 
+|
+ Principais contribuições 
+|
+|
+---
+|
+---
+|
+---
+|
+|
+ Rodrigo 
+|
+ Backend e Infraestrutura 
+|
+ Docker, CI e integração com a API do GitHub 
+|
+|
+ Giovana 
+|
+ IA e Avaliação; co-responsável por Dados e Qualidade 
+|
+ Grafo LangGraph, agentes, métricas e testes automatizados 
+|
+|
+ Daniel 
+|
+ Produto e Interface; co-responsável por Dados e Qualidade 
+|
+ Documentação, pesquisa ABNT, catálogo de issues e datasets 
+|
 
 ## Licença
 
