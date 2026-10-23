@@ -3,14 +3,13 @@
 Projeto da disciplina **Projetos de IA na Programação**.
 
 Sistema multiagente que lê uma issue, planeja a solução, escreve código e testes,
-executa a integração contínua e abre um pull request — sempre em uma cópia isolada
-do repositório.
+executa a integração contínua e abre um pull request
 
 ## Integrantes e papéis
 
 - **Rodrigo Forcinito Cruz** — Backend e Infraestrutura
 - **Giovana de Jesus Oliveira** — IA e Avaliação; co-responsável por Dados e Qualidade
-- **Daniel Cosme de Santana ** — Produto e Interface; co-responsável por Dados e Qualidade
+- **Daniel Cosme de Santana** — Produto e Interface; co-responsável por Dados e Qualidade
 
 ## Problema
 
