@@ -34,6 +34,7 @@ em repositório de teste do grupo.
 Grafo com estado em LangGraph, executado sobre uma cópia isolada do repositório.
 
 **Nó e Responsabilidade**
+
 Planejador: lê a issue e produz o plano. Não grava arquivos; 
 Programador: gera o diff no contêiner Docker, restrito aos caminhos permitidos;
 Testador: executa o pytest e devolve o erro ao programador;
