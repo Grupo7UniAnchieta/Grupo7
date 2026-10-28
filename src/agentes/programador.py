@@ -5,7 +5,7 @@ from __future__ import annotations
 from ..limites import estimar_tokens, pode_chamar, registrar_custo
 from ..ollama_cliente import gerar, limpar_cerca
 
-ARQUIVO = "frete.py"
+ARQUIVO = "src/frete.py"
 
 SISTEMA = (
     "Você é um programador Python. Responda SOMENTE com o conteúdo completo do arquivo "
